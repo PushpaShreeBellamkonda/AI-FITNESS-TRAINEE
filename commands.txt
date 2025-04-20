@@ -1,0 +1,9 @@
+set EMAIL_ADDRESS=pushpashreebellamkonda@gmail.com
+set EMAIL_PASSWORD=xtsz fhqy nkwp jrgh
+python -m streamlit run home_page.py
+
+
+
+
+For this to run:
+Need to create app specific password.
