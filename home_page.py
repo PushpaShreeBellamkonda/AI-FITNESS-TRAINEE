@@ -79,9 +79,6 @@ def drawOn(img, p1, p2, p3, angle,lmList):
     cv2.putText(img, str(int(angle)), (x2 - 50, y2 + 50),
                 cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
 
-
-
-
 st.markdown(
     """
     <style>
@@ -763,6 +760,6 @@ elif app_mode == 'Training':
                 frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
                 # frame = cv2.resize(frame,(0,0),fx = 0.8 , fy = 0.8)
                 frame = image_resize(image=frame, width=640)
-                stframe.image(frame, channels='BGR', use_column_width=True)
+                stframe.image(frame, channels='BGR', use_container_width=True)
 
         
